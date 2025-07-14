@@ -38,10 +38,8 @@ const _Layout = () => {
           />
         </View>
 
-        <CustomInput />
-        <CustomButton />
+        <Slot />
       </ScrollView>
-      <Slot />
     </KeyboardAvoidingView>
   );
 };
